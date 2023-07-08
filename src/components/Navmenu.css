@@ -1,0 +1,27 @@
+/* .navbar{
+   background-color: lightgray;
+} */
+
+.navbar{
+  display: flex;
+  justify-content: right;
+}
+.navbar a{
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+.navbar a:hover{
+  color: rgb(100, 21, 255);
+}
+
+
+
+/* @media screen and (min-width: 992px)
+{.navbar-collapse{
+  flex-grow: 0;
+}
+
+} */
